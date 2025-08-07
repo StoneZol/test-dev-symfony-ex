@@ -1,0 +1,109 @@
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 2rem;
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+}
+
+.title {
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 2rem;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.section {
+    margin-bottom: 2rem;
+}
+
+.sectionTitle {
+    color: #ffffff;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    padding-bottom: 0.5rem;
+    font-weight: 600;
+}
+
+.userInput {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 1rem;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.userInput p {
+    margin: 0.5rem 0;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.numberInfo {
+    background: rgba(100, 108, 255, 0.15);
+    padding: 1.5rem;
+    border-radius: 12px;
+    border: 1px solid rgba(100, 108, 255, 0.3);
+}
+
+.numberDisplay {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.number {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #f8f8f8;
+    background: rgba(39, 47, 204, 0.25);
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+}
+
+.type {
+    background: rgba(255, 255, 255, 0.15);
+    color: #ffffff;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.fact {
+    color: #ffffff;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin: 0;
+    font-style: italic;
+    font-weight: 500;
+}
+
+.backButton {
+    padding: 14px 24px;
+    background: #646cff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    margin-top: 1rem;
+}
+
+.backButton:hover:not(:disabled) {
+    background: #535bf2;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(100, 108, 255, 0.4);
+}
+
+.backButton:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+    transform: none;
+}
